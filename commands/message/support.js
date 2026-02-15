@@ -26,11 +26,11 @@ module.exports = {
                 .setDescription(
                     'Need help or have questions? Join our official support server:\n' +
                     '[Support Server](https://discord.gg/xQF9f9yUEM)\n\n' +
-                    'For direct inquiries, contact: **GlaceYT**\n\n' +
-                    'Website: https://glaceyt.com'
+                    'For direct inquiries, contact: **ZeusBro**\n\n' +
+                    'Website: https://ZeusBro.com'
                 )
                 .setTimestamp()
-                .setFooter({ text: 'Ultimate Music Bot • Developed by GlaceYT' });
+                .setFooter({ text: 'Ultimate Music Bot • Developed by ZeusBro' });
             
             await message.reply({ embeds: [embed] });
         } catch (error) {
@@ -39,3 +39,4 @@ module.exports = {
         }
     }
 };
+
